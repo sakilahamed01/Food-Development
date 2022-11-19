@@ -28,7 +28,8 @@ body{
     margin-bottom: 1rem;
 }
 .container{
-    min-width: 100vh;;
+    min-width: 50vh;
+    overflow: hidden;
 }
 .meal-wrapper{
     max-width: 1280px;
@@ -260,8 +261,9 @@ body{
 }
 
 @media screen and (min-width:125px){
+    
     .meal-img img{
-        height: 599px;
+        height: 330px;
     }
 }
 
